@@ -1,0 +1,12 @@
+
+https://medium.com/tech-tajawal/jwt-authentication-for-lumen-5-6-2376fd38d454
+
+php artisan make:migration create_users_table
+php artisan make:seed UsersTableSeeder
+
+php artisan migrate
+php artisan db:seed
+
+
+php artisan make:model User
+php artisan make:controller AuthController
